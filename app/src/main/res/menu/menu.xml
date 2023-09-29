@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/home"
+            android:title="Inicio"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/controlCar"
+            android:title="Ver"
+            android:icon="@drawable/ic_car_repair"/>
+        <item android:id="@+id/settings"
+            android:title="Ajustes"
+            android:icon="@drawable/ic_settings" />
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666191756014",
+    "project_id": "vehiclereport-43b27",
+    "storage_bucket": "vehiclereport-43b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666191756014:android:f34b02828e4ad72bae91ff",
+        "android_client_info": {
+          "package_name": "com.example.vehiclereport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666191756014-4ddc67ajk8cvm8aa7ts072mm78n6oabq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTA-JCBHetEkcJKZh1xC1GByFuIte6a48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666191756014-4ddc67ajk8cvm8aa7ts072mm78n6oabq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

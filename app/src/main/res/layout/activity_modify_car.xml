@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgtheme"
+    android:orientation="vertical"
+    tools:context=".AddCars">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:src="@drawable/bgaddcar"
+        />
+
+    <EditText
+        android:id="@+id/edChangeModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Modelo"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edChangeNumberPlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Matricula"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:paddingLeft="10dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edChangeRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Año matriculación"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edChangeKms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Kms actuales"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edChangeInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Fecha último seguro"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edChangeITV"
+        android:layout_width="match_parent"
+        android:inputType="none"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_input"
+        android:hint="Última inspección tecnica"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnModify"
+        android:background="@drawable/button_round"
+        android:text="Modificar"
+        android:textSize="15dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFBC5C"/>
+
+
+</LinearLayout>
